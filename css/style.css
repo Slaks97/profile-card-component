@@ -26,25 +26,30 @@ body {
     min-height: 100vh;
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: right 35vw bottom 50vh, left 40vw top 40vh;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
     font-family: var(--ff);
-    display: flex;
+    width: 350px;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    align-items: center; */
+    /* height: 100vh; */
 }
 
 .card {
-    width: 85%;
+    width: 100%;
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
 }
 
 .card-img-section {
+    width: 100%;
     position: relative;
 }
 
@@ -134,5 +139,4 @@ p, .age, .stats-name {
     header h1 {
         font-size: 1.35rem;
     }
-}
- */
+} */
