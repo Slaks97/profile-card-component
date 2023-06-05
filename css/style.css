@@ -118,31 +118,3 @@ p, .age, .stats-name {
     font-size: .65rem;
     letter-spacing: .1rem;
 }
-
-@media screen and (max-width: 330px) {
-    .card-container {
-        max-width: 300px;
-        /* width: 90%; */
-    }
-    
-    .stats-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-    }
-    .stats-info {
-        padding: 12px 0;
-        line-height: 1.4;
-    }
-}
-
-@media screen and (min-width: 495px) {
-    /* .card {
-        max-width: 500px;
-    } */
-    header h1 {
-        font-size: 1.35rem;
-    }
-}
